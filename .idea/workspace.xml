@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6ce773e-38f7-4fb2-8952-6afc34ea09b4" name="Default Changelist" comment="" />
+    <list default="true" id="f6ce773e-38f7-4fb2-8952-6afc34ea09b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/CircuitDeFacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/CircuitDeFacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/CircuitDeJure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/CircuitDeJure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/CircuitTG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/CircuitTG.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +28,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TcIz3uud58hYQ2kV7ccQnX7yxa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -90,11 +101,22 @@
       <workItem from="1574591381370" duration="3260000" />
       <workItem from="1574595531378" duration="21427000" />
       <workItem from="1574840463126" duration="2972000" />
-      <workItem from="1574959776452" duration="69727000" />
+      <workItem from="1574959776452" duration="71143000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

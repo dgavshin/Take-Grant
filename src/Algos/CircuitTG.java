@@ -34,8 +34,8 @@ public class CircuitTG {
                 if (n != l.getE2() && n != l.getE1())
                     check(l, n);
         }
-        L.removeAll(removedL);
         L.addAll(addedL);
+        L.removeAll(removedL);
         addedL.clear();
         removedL.clear();
     }

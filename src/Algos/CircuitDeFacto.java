@@ -36,8 +36,8 @@ public class CircuitDeFacto{
                 if (n != f.getE2() && n != f.getE1())
                     check(f, n);
         }
+        F.addAll(addedF);
         F.removeAll(removedF);
-        //F.addAll(addedF);
 
         F.forEach(x -> System.out.println(x.getE1().getName() + x.getE2().getName()));
         addedF.clear();

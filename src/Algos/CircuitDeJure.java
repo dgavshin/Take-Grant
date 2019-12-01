@@ -1,13 +1,10 @@
 package Algos;
 
 import Entities.IEntity;
-import Entities.Subject;
 import Main.Edge;
 import Main.Main;
-import Rules.RuleDeJure;
 
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
