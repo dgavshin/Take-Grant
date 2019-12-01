@@ -1,23 +1,13 @@
-# Distribution of rights in TG-Protection Model
+# Distribution of rights in extended TG-Protection Model
+
+<img src="/assets/tl.jpg" width="60%">
 
 Coursework on the subject of Information Security in computer systems. Specialty of training - information security.
 
 The take-grant protection model is a formal model used in the field of computer security. The model represents a system as directed graph. In my coursework i will distribute rights as much as possible by 7 rules:
 
-**De-jure:**
-1. Take 
-2. Grant
-3. Create
+**De-jure:** Take, Grant, Create
 
+**De-facto:** First, Second, Find, Spy, Pass, Post
 
-**De-facto:**
- 1. First
- 2. Second
- 3. Find
- 4. Spy
- 5. Pass
- 6. Post
-
-<img src="./assets/take.jpg" width="60%"> 
-<img src="./assets/grant.jpg" width="60%">
-<img src="./assets/create.jpg" width="50%">
+This model defines **S** - Subjects, **O** - Objects, **R** - rights, where R ∈ {a1,a2,a3} ∪ {t,g}, and **G** - multiple access rights** = (S, O, E). **E = O x O x R**
