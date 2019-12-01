@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Take-Grant:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Take_Grant_jar</output-path>
+    <root id="archive" name="Take-Grant.jar">
+      <element id="module-output" name="Take-Grant" />
+    </root>
+  </artifact>
+</component>
