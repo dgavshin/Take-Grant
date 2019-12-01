@@ -59,7 +59,7 @@ public class                RuleDeJure extends Rule {
         return (e);
     }
 
-    public static Object    create(IEntity s) {
+    public static void create(IEntity s) {
         Object o;
 
         o = new Object(s.getName() + "'");
@@ -67,6 +67,5 @@ public class                RuleDeJure extends Rule {
         Main.objects.add(o);
         Main.vertexMap.add(o);
         Debug.print(s, o, "create");
-        return (o);
     }
 }
