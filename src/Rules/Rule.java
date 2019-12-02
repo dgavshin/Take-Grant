@@ -15,17 +15,15 @@ public class Rule {
 
     public static Edge getEdge(IEntity s, IEntity o)
     {
-        if (Objects.isNull(s.getEdge(o)))
+        Edge e;
+
+        e = s.getEdge(o);
+        if (Objects.isNull(e))
         {
-            Edge e = new Edge(s,o);
+            e = new Edge(s,o);
             Main.edgeMap.add(e);
             return (e);
         }
         return (s.getEdge(o));
-    }
-
-    public static boolean canWrite(IEntity e1, IEntity e2)
-    {
-        return true;
     }
 }

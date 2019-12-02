@@ -7,7 +7,7 @@ import Main.Main;
 import Main.Permission;
 import Main.Debug;
 
-import java.util.Set;
+import java.util.*;
 
 import static Main.Main.edgeMap;
 import static Main.Permission.*;
@@ -44,21 +44,6 @@ public class                RuleDeJure extends Rule {
         return (null);
     }
 
-    private static Edge appendPermissions(IEntity s, IEntity o, Edge source, String f)
-    {
-        Edge e;
-        try {
-            e = s.getEdge(o);
-            e.getReal().addAll(source.getReal());
-            e.getImaginary().addAll(source.getImaginary());
-        } catch (NullPointerException ignored) {
-            e = new Edge(s, o, source);
-            edgeMap.add(e);
-        }
-        Debug.print(s, o, f);
-        return (e);
-    }
-
     public static void create(IEntity s) {
         Object o;
 
@@ -66,6 +51,26 @@ public class                RuleDeJure extends Rule {
         edgeMap.add(new Edge(s, o, TAKE, GRANT, READ, WRITE));
         Main.objects.add(o);
         Main.vertexMap.add(o);
-        Debug.print(s, o, "create");
+        Debug.print(s, o, "create", Arrays.asList(TAKE, GRANT, READ, WRITE));
+    }
+
+    private static Edge appendPermissions(IEntity s, IEntity o, Edge source, String f)
+    {
+        Edge e;
+        List<Permission> permissions = new ArrayList<>();
+
+        e = getEdge(s, o);
+        for (Permission p: source.getImaginary())
+            if (e.getImaginary().add(p))
+                permissions.add(p);
+        for (Permission p: source.getReal())
+            if (e.getReal().add(p))
+                permissions.add(p);
+        if (!permissions.isEmpty())
+        {
+            Debug.print(s, o, f, permissions);
+            return (e);
+        }
+        return (null);
     }
 }

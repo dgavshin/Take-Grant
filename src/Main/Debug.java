@@ -4,13 +4,13 @@ import Entities.IEntity;
 import Entities.Object;
 import Rules.RuleDeFacto;
 import Rules.RuleDeJure;
+import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.List;
 import java.util.Set;
 
 import static Main.Main.edgeMap;
-import static Tools.Color.RED;
-import static Tools.Color.RESET;
+import static Tools.Color.*;
 
 public class Debug {
 
@@ -26,20 +26,26 @@ public class Debug {
 
     private static boolean MAIN = false;
 
-    public static void print(IEntity a, IEntity b, String f)
+    public static void print(IEntity a, IEntity b, String f, List<Permission> permissions)
     {
+        StringBuilder ps = new StringBuilder();
         if (ALL || DE_JURE || DE_JURE_RULES)
-            debug(a, b, f);
+            for (Permission p : permissions)
+                ps.append(p.getRight()).append(" ");
+            debug(a, b, f, ps.toString());
     }
 
-    public static void print(List<Edge> s, String f)
+    public static void print(Edge s, String f, Permission ... permissions)
     {
+        StringBuilder builder = new StringBuilder();
         if (ALL || DE_FACTO || DE_FACTO_RULES)
-            s.forEach(e -> debug(e.getE1(),e.getE2(), f));
+            for (Permission p : permissions)
+                builder.append(p.getRight()).append(" ");
+            debug(s.getE1(),s.getE2(),f, builder.toString());
 
     }
 
-    public static void printEdgeMap(String type)
+    static void printEdgeMap(String type)
     {
         if (MAIN || ALL) {
             System.out.println("\n" + type);
@@ -53,12 +59,13 @@ public class Debug {
         }
     }
 
-    private static void debug(IEntity a, IEntity b, String f)
+    private static void debug(IEntity a, IEntity b, String f, String permission)
     {
-        System.out.println("[+] Added edge between " + a.getName() + " and " + b.getName() + " by " + f + " - " + a.getEdge(b).permissionsToString());
+        System.out.println("[+] Added edge between " + RED + a.getName() + RESET + " and "
+                + RED + b.getName() + RESET + " by " + f + " - " + RED + permission + RESET);
     }
 
-    public static void printUsage()
+    static void printUsage()
     {
         System.out.println(RED + "\nUsage: java -jar Take-Grant.jar --config={absolute path to config} --debug a,j,f,m,jr,fr,jc,fc\n" + RESET +
                 "\t\tDebug keys:\n" +
@@ -72,7 +79,7 @@ public class Debug {
                 "\t\t\tfc = only de facto circuit\n");
     }
 
-    public static void setDebugKeys(String[] keys)
+    static void setDebugKeys(String[] keys)
     {
         for (String key: keys)
         {

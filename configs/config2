@@ -1,0 +1,8 @@
+Subjects:2
+Objects:3
+
+s1-s2:t,g
+s2-s1:r
+s1:o1:r
+s1-o2:r,w
+s2-o3:fw

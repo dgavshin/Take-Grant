@@ -39,22 +39,15 @@ public class CircuitDeFacto{
         F.addAll(addedF);
         F.removeAll(removedF);
 
-        F.forEach(x -> System.out.println(x.getE1().getName() + x.getE2().getName()));
         addedF.clear();
         removedF.clear();
     }
 
     private static void check(Edge l, IEntity n) {
-        List<Edge> e;
-
-        if ((e = spy(l, n)) != null)
-            addedF.addAll(e);
-        if ((e = find(l, n)) != null)
-            addedF.addAll(e);
-        if ((e = post(l, n)) != null)
-            addedF.addAll(e);
-        if ((e = pass(l, n)) != null)
-            addedF.addAll(e);
+        addedF.addAll(spy(l, n));
+        addedF.addAll(find(l, n));
+        addedF.addAll(post(l, n));
+        addedF.addAll(pass(l, n));
     }
 
     private static void prepare() {
