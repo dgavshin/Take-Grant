@@ -7,7 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6ce773e-38f7-4fb2-8952-6afc34ea09b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-Grant.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Take_Grant_jar/Take-Grant.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Take_Grant_jar/Take-Grant.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Debug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Debug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tools/RandomName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/RandomName.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +107,9 @@
       <workItem from="1574591381370" duration="3260000" />
       <workItem from="1574595531378" duration="21427000" />
       <workItem from="1574840463126" duration="2972000" />
-      <workItem from="1574959776452" duration="82876000" />
+      <workItem from="1574959776452" duration="84209000" />
+      <workItem from="1575323288853" duration="34000" />
+      <workItem from="1575453004094" duration="2353000" />
     </task>
     <servers />
   </component>
@@ -113,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

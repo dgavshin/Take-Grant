@@ -1,9 +1,5 @@
-Subjects:2
-Objects:3
+Subjects:1
+Objects:2
 
-s1-s2:t,g
-s2-o3:w
 s1-o1:t
-o1-o2:r
-o1-o2:fr
-o2-o3:fr
+o1-o2:r,fr

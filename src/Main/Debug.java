@@ -1,16 +1,12 @@
 package Main;
 
 import Entities.IEntity;
-import Entities.Object;
-import Rules.RuleDeFacto;
-import Rules.RuleDeJure;
-import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.List;
-import java.util.Set;
 
 import static Main.Main.edgeMap;
-import static Tools.Color.*;
+import static Tools.Color.RED;
+import static Tools.Color.RESET;
 
 public class Debug {
 

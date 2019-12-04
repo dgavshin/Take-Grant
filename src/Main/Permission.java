@@ -1,7 +1,5 @@
 package Main;
 
-import Entities.IEntity;
-
 public enum Permission {
 
     FLOW_READ("im", "fr"),
