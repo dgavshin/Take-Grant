@@ -13,3 +13,7 @@ The take-grant protection model is a formal model used in the field of computer 
 This model defines **S** - Subjects, **O** - Objects, **R** - rights, where R ∈ {a1,a2,a3} ∪ {t,g}, and **G** - multiple access rights = (S, O, E). **E = O x O x R**
 
 > Folder ./configs contains some start edge map for testing algorithm
+
+### Ouput
+
+<img src="./assets/output.png">
