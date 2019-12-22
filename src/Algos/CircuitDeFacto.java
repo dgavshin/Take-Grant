@@ -1,21 +1,15 @@
 package Algos;
-
 import Entities.IEntity;
-import Entities.Subject;
 import Main.Edge;
 import Main.Main;
-import Rules.RuleDeJure;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
-import Main.Debug;
 
 import static Main.Permission.*;
 import static Rules.RuleDeFacto.*;
-import static Rules.RuleDeJure.grant;
-import static Rules.RuleDeJure.take;
 
 public class CircuitDeFacto{
 
