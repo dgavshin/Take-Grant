@@ -11,11 +11,11 @@ import java.util.regex.Pattern;
 public class RandomName {
 
     public static String get() {
-        BufferedReader      in;
-        StringBuilder       response;
-        String              inputLine;
-        String              result;
-        HttpURLConnection   connection;
+        BufferedReader in;
+        StringBuilder response;
+        String inputLine;
+        String result;
+        HttpURLConnection connection;
 
         result = null;
         response = new StringBuilder("default");
@@ -29,8 +29,8 @@ public class RandomName {
                 response.append(inputLine);
             }
             in.close();
+        } catch (IOException ignored) {
         }
-        catch (IOException ignored) {}
         Pattern pattern = Pattern.compile("<span class=\"result\">(.+?)</span>");
         Matcher matcher = pattern.matcher(response.toString());
         if (matcher.find())

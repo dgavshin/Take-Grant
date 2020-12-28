@@ -16,9 +16,14 @@ public class                RuleDeJure extends Rule {
 
     private static Set<Permission> sx;
 
+    /**
+     * правило take, смотри в доках как оно работает
+     * docs/Rules/RuleDeJure.md
+     */
     public static Edge   take(IEntity s, IEntity x, IEntity y)
     {
         Edge xy;
+
 
         if (canShare(s, x) && canShare(x, y))
         {

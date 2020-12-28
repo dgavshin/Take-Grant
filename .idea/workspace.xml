@@ -7,15 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6ce773e-38f7-4fb2-8952-6afc34ea09b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/output.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Algos/CircuitDeFacto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Algos/CircuitDeFacto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Algos/CircuitDeJure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Algos/CircuitDeJure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Algos/CircuitTG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Algos/CircuitTG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Entities/Object.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Entities/Object.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Entities/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Entities/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/META-INF/Take-Grant.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Main/Debug.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Main/Debug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Main/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Main/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Main/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Main/Permission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Rules/Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Rules/Rule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Rules/RuleDeFacto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Rules/RuleDeFacto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Rules/RuleDeJure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Rules/RuleDeJure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Tools/Appropriator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Tools/Appropriator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Take-Grant/Tools/RandomName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Take-Grant/Tools/RandomName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algos/CircuitDeFacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/CircuitDeFacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/CircuitDeJure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/CircuitDeJure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/CircuitTG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/CircuitTG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/IEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/IEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rules/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules/Rule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rules/RuleDeFacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules/RuleDeFacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rules/RuleDeJure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules/RuleDeJure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tools/Appropriator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/Appropriator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tools/RandomName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/RandomName.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +56,21 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,24 +81,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Tools" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -90,6 +104,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,15 +137,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="642" y="422" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609177121530">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="642" y="422" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1609177121530" />
+    <state x="561" y="265" width="670" height="675" key="run.anything.popup" timestamp="1609181895797">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="265" width="670" height="675" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1609181895797" />
   </component>
 </project>

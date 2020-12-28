@@ -4,9 +4,11 @@ import Main.Edge;
 
 import java.util.List;
 
-public interface    IEntity {
+public interface IEntity {
 
-    String          getName();
-    List<IEntity>   getChildren();
-    Edge            getEdge(IEntity o);
+    String getName();
+
+    List<IEntity> getChildren();
+
+    Edge getEdge(IEntity o);
 }

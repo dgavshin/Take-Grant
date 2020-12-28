@@ -13,6 +13,13 @@ public class Rule {
         return !Objects.isNull(e1.getEdge(e2));
     }
 
+    /**
+     * Этот метод вызывает другую функцию getEdge, которая
+     * ищет в списке всех ребер edgeMap такое ребро
+     * (A-------->B типо ребро), где А равно s, а B равно о.
+     * Если не находит, то создает новое ребро и
+     * возвращает его.
+     */
     public static Edge getEdge(IEntity s, IEntity o)
     {
         Edge e;
