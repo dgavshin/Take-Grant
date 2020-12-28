@@ -61,8 +61,12 @@ public class Edge {
     }
     public void                 addPermission(Permission p)
     {
+        // если право мнимое (imaginary) тоесть является информационным потоком,
+        // то кладем в соответствующий список информационных потоков
         if (p.getType().equals("im"))
             this.getImaginary().add(p);
+        // если ребро реальное (то есть тейк там, грант, чтение, запись)
+        // то кладем в список с реальными правами
         else if (p.getType().equals("re"))
             this.getReal().add(p);
     }

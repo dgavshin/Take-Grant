@@ -41,7 +41,7 @@ public class Debug {
 
     }
 
-    static void printEdgeMap(String type)
+    public static void printEdgeMap(String type)
     {
         if (MAIN || ALL) {
             System.out.println("\n" + type);
